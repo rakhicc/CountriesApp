@@ -41,7 +41,6 @@ const CountryCard = ({
             ))}
           </p>
         </div>
-        )
       </div>
     </Link>
   );

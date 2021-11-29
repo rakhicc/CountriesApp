@@ -2,7 +2,11 @@ import React, { Component } from "react";
 
 class CountrySingle extends Component {
   render() {
-    return <div>{this.props.params.name}</div>;
+    return (
+      <div className="single">
+        <p>{this.props.params.name}</p>
+      </div>
+    );
   }
 }
 

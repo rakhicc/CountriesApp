@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap");
 .App {
   text-align: center;
 }
@@ -6,7 +7,51 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.navbar {
+  padding: 1rem;
+  margin: 1rem;
+  font-family: "Mohave", sans-serif;
+  font-size: 2rem;
+  color: cadetblue;
+  background-color: rgb(184, 178, 178);
+}
+.navbar nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 4rem;
+  padding-left: 10vw;
+  padding-right: 30vw;
+  margin: 0.5rem;
+  color: rgb(27, 78, 80);
+  text-align: center;
+}
+.header {
+  background-color: rgb(184, 178, 178);
+}
+.header h1 {
+  font-family: "Mohave", sans-serif;
+  font-size: 4rem;
+  align-self: center;
+  text-align: center;
+  color: rgb(12, 67, 69);
+}
+.home h1 {
+  font-family: "Mohave", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 6vw;
+  padding: 2rem;
+  color: rgb(78, 75, 22);
+}
+.single {
+  margin: 6vw;
+}
+.single p {
+  font-family: "Mohave", sans-serif;
+  font-size: 3rem;
+  color: rgb(78, 75, 22);
+  text-align: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -40,6 +85,7 @@ body {
   position: relative;
   width: 700px;
   height: 300px;
+  font-family: "Mohave", sans-serif;
 }
 .searchInput {
   padding: 2rem;
@@ -47,6 +93,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  font-family: "Mohave", sans-serif;
 }
 .searchInput input {
   align-self: center;
@@ -54,11 +101,13 @@ body {
   padding-right: 15rem;
   margin: 0.5rem;
   margin-left: 30vw;
+  font-family: "Mohave", sans-serif;
 }
 .countries {
   /* display: block;
   justify-content: space-between; */
   text-align: center;
+  font-family: "Mohave", sans-serif;
 }
 .countries div img {
   width: 50px;
@@ -70,10 +119,12 @@ body {
 .country p {
   font-size: 1.5rem;
   padding: 0.25rem;
+  font-family: "Mohave", sans-serif;
 }
 .country h2 {
   font-size: 2.5rem;
   padding: 0.25rem;
+  font-family: "Mohave", sans-serif;
 }
 
 .lds-dual-ring {
@@ -115,6 +166,7 @@ body {
   box-shadow: 0 0 5px rgb(92, 92, 92);
   border-radius: 5px;
   position: relative;
+  font-family: "Mohave", sans-serif;
 }
 .App-link {
   color: #61dafb;

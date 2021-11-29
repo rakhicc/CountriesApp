@@ -20,16 +20,7 @@ const RouteWrapper = (props) => {
 const App = () => {
   return (
     <BrowserRouter>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/countries">Countries</Link>
-          </li>
-        </ul>
-      </nav>
+      <Header />
       <Routes>
         <Route index element={<Home />}></Route>
         <Route path="/countries" element={<CountriesList />}></Route>

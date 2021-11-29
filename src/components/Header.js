@@ -2,8 +2,10 @@ import React from "react";
 import Nav from "./Nav";
 const Header = () => {
   return (
-    <div>
-      <h1>Countries App</h1>
+    <div className="header">
+      <h1>
+        <b>Countries App</b>
+      </h1>
       <Nav />
     </div>
   );
