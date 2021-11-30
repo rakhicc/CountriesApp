@@ -3,16 +3,10 @@ import "./App.css";
 import React from "react";
 import CountriesList from "./components/CountriesList";
 import Home from "./components/Home";
-import {
-  BrowserRouter,
-  Link,
-  Routes,
-  Route,
-  useParams,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import Header from "./components/Header";
 import CountrySingle from "./components/CountrySingle";
-
+import Footer from "./components/Footer";
 const RouteWrapper = (props) => {
   const params = useParams();
   return <CountrySingle params={params} {...props} />;

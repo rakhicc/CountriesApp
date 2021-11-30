@@ -11,7 +11,7 @@ const CountryCard = ({
 }) => {
   return (
     <Link to={capital}>
-      <div>
+      <div className="countrymain">
         <div className="country" key={name}>
           <span>
             <h2 className="back">

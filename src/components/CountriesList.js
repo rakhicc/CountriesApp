@@ -30,7 +30,7 @@ class CountriesList extends Component {
 
   render() {
     if (this.state.isLoading) {
-      return <div class="lds-dual-ring"></div>;
+      return <div className="lds-dual-ring"></div>;
     }
     if (!this.state.isLoading) {
       return (
