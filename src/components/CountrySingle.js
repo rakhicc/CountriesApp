@@ -53,8 +53,7 @@ class CountrySingle extends Component {
             </span>
           </p>
           <p>
-            Wind Speed is {this.state.weather.wind.speed} in{" "}
-            {this.state.country.capital}
+            Calling code is {this.state.country.callingCodes} 
           </p>
           <p>
             Population is {number.formatNumber(this.state.country.population)}{" "}
@@ -62,6 +61,7 @@ class CountrySingle extends Component {
           <p>
             Languages used are :{" "}
             {this.state.country.languages.map((lang) => (
+              
               <li>{lang.name}</li>
             ))}
           </p>

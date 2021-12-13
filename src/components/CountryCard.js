@@ -11,7 +11,7 @@ const CountryCard = ({
 }) => {
   return (
     <Link to={capital}>
-      <div className="countrymain">
+     
         <div className="country" key={name}>
           <span>
             <h2 className="back">
@@ -41,7 +41,7 @@ const CountryCard = ({
             ))}
           </p>
         </div>
-      </div>
+      
     </Link>
   );
 };

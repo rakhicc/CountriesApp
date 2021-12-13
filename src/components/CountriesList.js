@@ -38,7 +38,7 @@ class CountriesList extends Component {
           <div className="searchInput">
             <input type="text" name="search" onChange={this.searchHandler} />
           </div>
-
+          
           {this.state.data
             .filter((item) => {
               return item.name
@@ -48,6 +48,7 @@ class CountriesList extends Component {
             .map((c) => (
               <CountryCard {...c} key={c.name} />
             ))}
+           
         </div>
       );
     }
