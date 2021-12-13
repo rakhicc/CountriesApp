@@ -36,7 +36,7 @@ class CountriesList extends Component {
       return (
         <div className="countries">
           <div className="searchInput">
-            <input type="text" name="search" onChange={this.searchHandler} />
+            <input type="text" placeHolder="search" name="search" onChange={this.searchHandler} />
           </div>
           
           {this.state.data
